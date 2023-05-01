@@ -39,7 +39,6 @@ class DialView @JvmOverloads constructor(
     private var radius = 0.0f
     private var fanSpeed = FanSpeed.OFF
     private val pointPosition: PointF = PointF(0.0f, 0.0f)
-
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.FILL
         textAlign = Paint.Align.CENTER
